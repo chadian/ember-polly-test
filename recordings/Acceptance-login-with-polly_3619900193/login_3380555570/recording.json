@@ -1,0 +1,35 @@
+{
+  "created_at": "2018-06-18T13:35:31.038Z",
+  "entries": {
+    "3b0d4893325d857ef63b8b02ee7aceb8": [
+      {
+        "created_at": "2018-06-18T13:35:31.038Z",
+        "request": {
+          "body": "grant_type=password&username=undefined&password=undefined",
+          "headers": {
+            "content-type": "application/x-www-form-urlencoded;charset=utf-8"
+          },
+          "method": "POST",
+          "timestamp": "2018-06-18T13:35:31.017Z",
+          "url": "/api/token"
+        },
+        "response": {
+          "body": "{\"access_token\":\"ACCESS_TOKEN\",\"token_type\":\"bearer\",\"expires_in\":2592000,\"refresh_token\":\"REFRESH_TOKEN\",\"scope\":\"read\",\"uid\":100101,\"info\":{\"name\":\"Mark E. Mark\",\"email\":\"mark@thefunkybunch.com\"}}",
+          "headers": {
+            "connection": "keep-alive",
+            "content-length": "198",
+            "content-type": "application/json; charset=utf-8",
+            "date": "Mon, 18 Jun 2018 13",
+            "etag": "W/\"c6-RCS+CLWCSer/t7oKGYRNN3Ds5QA\"",
+            "vary": "Accept-Encoding",
+            "x-powered-by": "Express"
+          },
+          "status": 200,
+          "timestamp": "2018-06-18T13:35:31.024Z"
+        }
+      }
+    ]
+  },
+  "name": "Acceptance | login with polly/login",
+  "schema_version": 0.1
+}

@@ -1,5 +1,12 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<br>---- application template ----<br>
+Application template:
+isAuthenticated? {{session.isAuthenticated}}<br><br>
+{{link-to 'go to login route' 'login'}}<br><br>
+{{link-to 'go to index route' 'index'}}<br><br>
+{{#unless isAuthenticated}}
+  <button {{action 'logout'}}>Logout</button>
+{{/unless}}
+<br>---- application template ----<br>
+<br>---- outlet ----<br>
 {{outlet}}
+<br>---- outlet ----<br>
